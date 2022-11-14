@@ -6,3 +6,10 @@ function testbutton() {
         showText.style.display = "block"
     }
 }
+
+function modes() {
+    var mode = document.body;
+    mode.classList.toggle("dark-mode")
+    var modeheader = document.getElementById('header');
+    modeheader.classList.toggle("dark-mode-header")
+}
