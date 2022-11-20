@@ -13,3 +13,7 @@ function modes() {
     var modeheader = document.getElementById('header');
     modeheader.classList.toggle("dark-mode-header")
 }
+
+function testingsite() {
+    window.open('testingsite.html', '_self')
+}
